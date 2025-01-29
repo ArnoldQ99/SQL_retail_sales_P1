@@ -24,6 +24,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
 ```sql
 CREATE DATABASE sql_project_p1;
 
+DROP TABLE IF EXISTS retail_sales;
 CREATE TABLE retail_sales
 (
     transactions_id INT PRIMARY KEY,
